@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 
 const Navbar = () => {
-    const [hidden, setHidden ] = React.useState(true)
   return (
       <nav
           className="w-100 flex flex-wrap items-center my-10  justify-between md:mx-20 mx-5"
@@ -18,7 +17,7 @@ const Navbar = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              onClick={() => { setHidden(!hidden) }}
+              onClick={() => {  }}
           >
               <path
                   stroke-linecap="round"
@@ -28,8 +27,8 @@ const Navbar = () => {
               />
           </svg>
 
-          <div class={hidden ? "hidden" : ""+ "w-full md:flex md:items-center md:w-auto"} id="menu">
-              <ul className="md:flex space-x-6 justify-start ">
+          <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+              <ul className="md:flex space-x-6 justify-start  ">
                   <li>Home</li>
                   <li>Studios</li>
                   <li>Metaverse</li>

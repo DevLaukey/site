@@ -28,7 +28,7 @@ const Navbar = () => {
               />
           </svg>
 
-          <div class={hidden ? "hidden" : ""+ "w-full md:flex md:items-center md:w-auto"} id="menu">
+          <div class={hidden + "w-full md:flex md:items-center md:w-auto"} id="menu">
               <ul className="md:flex space-x-6 justify-start ">
                   <li>Home</li>
                   <li>Studios</li>
