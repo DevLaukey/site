@@ -13,6 +13,15 @@ export default function Home() {
       </Head>
       <div>
         {/* Code goes here */}
+      
+        
+        {/* hero section */}
+
+        {/* info section */}
+
+        {/* slider  */}
+
+        {/* footer */}
    </div>
     </>
   )
