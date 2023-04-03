@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Image height={100} width={100} src="./next.svg" alt="logo" />
             </div>
 
-            {hidden ? <svg
+            {!hidden ? <svg
                 xmlns="http://www.w3.org/2000/svg"
                 id="menu-button"
                 class="h-6 w-6 cursor-pointer md:hidden block"
@@ -28,12 +28,8 @@ const Navbar = () => {
                 />
             </svg>
                 :
-                <svg id="menu-button"
-                    class="h-6 w-6 cursor-pointer md:hidden block"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    onClick={() => { setHidden(!hidden) }}
+                <svg viewPort="0 0 12 12" version="1.1" class="h-6 w-6 cursor-pointer md:hidden block"
+
                     xmlns="http://www.w3.org/2000/svg">
                     <line x1="1" y1="11"
                         x2="11" y2="1"
