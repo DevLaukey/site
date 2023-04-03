@@ -13,8 +13,9 @@ export default function Home() {
       </Head>
       <div>
         {/* Code goes here */}
-        <Navbar />
+<Navbar/>
         {/* hero section */}
+     
 
         <div className="mt-32 flex flex-col items-center justify-center">
           <p className="motto ">Studio | Metaverse| Academy</p>
@@ -22,7 +23,13 @@ export default function Home() {
             Keeping Pace With The Global Trends
           </h1>
           <button class="bg-yellow-500 mt-3 hover:bg-gray-400 text-white font-bold py-4 px-5 rounded inline-flex items-center">
-       
+            {/* <svg
+              class="fill-current w-4 h-4 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg> */}
             <span>CONTACT US NOW</span>
           </button>
         </div>

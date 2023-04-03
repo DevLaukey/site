@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -13,19 +12,27 @@ export default function Home() {
       </Head>
       <div>
         {/* Code goes here */}
-        <Navbar />
-        {/* hero section */}
 
-        <div className="mt-32 flex flex-col items-center justify-center">
-          <p className="motto ">Studio | Metaverse| Academy</p>
-          <h1 className="font-bold mt-6 text-center text-2xl">
-            Keeping Pace With The Global Trends
-          </h1>
-          <button class="bg-yellow-500 mt-3 hover:bg-gray-400 text-white font-bold py-4 px-5 rounded inline-flex items-center">
-       
-            <span>CONTACT US NOW</span>
-          </button>
+        {/* hero section */}
+        <div className="">
+
+        <div className="logo items-center">
+          <img src="/images/logo.png" alt="logo" />
         </div>
+        <div className="navbar flex justify-center">
+          <div className="nav_links">
+            <ul className="flex space-x-4 justify-start">
+              <li>Home</li>
+              <li>Studios</li>
+              <li>Metaverse</li>
+              <li>Academy</li>
+              <li>About</li>
+              <li>Contacts</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div className="hero_section"></div>
 
         {/* info section */}
 
