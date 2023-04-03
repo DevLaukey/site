@@ -16,12 +16,12 @@ export default function Home() {
         <Navbar />
         {/* hero section */}
 
-        <div className="md:mt-36 mt-24 flex flex-col items-center justify-center">
-          <p className="motto text-lg ">Studios  |  Metaverse  |  Academy</p>
-          <h1 className="font-bold mt-6 text-center text-2xl md:text-7xl">
+        <div className="mt-64 flex flex-col items-center justify-center">
+          <p className="motto text-lg ">Studio | Metaverse| Academy</p>
+          <h1 className="font-bold mt-6 text-center text-7xl">
             Keeping Pace With <br /> The Global Trends
           </h1>
-          <button class="bg-yellow-500 mt-5 hover:bg-yellow-600 text-white font-bold py-4 px-5 rounded inline-flex items-center">
+          <button class="bg-yellow-500 mt-3 hover:bg-gray-400 text-white font-bold py-4 px-5 rounded inline-flex items-center">
        
             <span>CONTACT US NOW</span>
           </button>
