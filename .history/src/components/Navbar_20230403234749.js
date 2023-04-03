@@ -5,7 +5,7 @@ const Navbar = () => {
     const [hidden, setHidden] = React.useState(true)
     return (
         <nav
-            className="w-100 flex flex-wrap items-center my-10 md:my-3  justify-between md:mx-20 mx-5"
+            className="w-100 flex flex-wrap items-center my-10  justify-between md:mx-20 mx-5"
         >
             <div className="w-1/3">
                 <Image height={100} width={100} src="./next.svg" alt="logo" />
@@ -14,7 +14,7 @@ const Navbar = () => {
             {hidden ? <svg
                 xmlns="http://www.w3.org/2000/svg"
                 id="menu-button"
-                class="h-6 w-6 cursor-pointer md:hidden block hover:cursor-pointer"
+                class="h-6 w-6 cursor-pointer md:hidden block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -29,7 +29,7 @@ const Navbar = () => {
             </svg>
                 :
                 <svg id="menu-button"
-                    class="h-10 w-10 cursor-pointer md:hidden block hover:cursor-pointer"
+                    class="h-10 w-10 cursor-pointer md:hidden block"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -45,14 +45,14 @@ const Navbar = () => {
                         stroke-width="2" />
                 </svg>}
 
-            <div class={hidden ? "hidden md:flex " : "" + "w-full md:flex items-center"} id="menu">
-                <ul className="md:flex justify-center mt-6 sm:h-screen md:h-12 w-full ">
-                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white cursor-pointer'>Home</li>
-                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white cursor-pointer'>Studios</li>
-                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white cursor-pointer'>Metaverse</li>
-                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white cursor-pointer'>Academy</li>
-                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white cursor-pointer'>About</li>
-                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white cursor-pointer'>Contacts</li>
+            <div class={hidden ? "hidden  " : "" + "w-full md:flex items-center"} id="menu">
+                <ul className="md:flex justify-center mt-6 sm:h-screen w-full ">
+                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>Home</li>
+                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>Studios</li>
+                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>Metaverse</li>
+                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>Academy</li>
+                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>About</li>
+                    <li className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>Contacts</li>
                 </ul>
             </div>
         </nav>)
