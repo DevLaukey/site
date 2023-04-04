@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Info from '../components/Info'
+
 
 
 export default function Home() {
@@ -18,6 +20,7 @@ export default function Home() {
         {/* hero section */}
 
         {/* info section */}
+        <Info />
 
         {/* slider  */}
 
