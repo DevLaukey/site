@@ -1,6 +1,9 @@
+
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Image from "next/image";
+import Info from '../components/Info'
+
 
 export default function Home() {
   return (
@@ -28,6 +31,7 @@ export default function Home() {
         </div>
 
         {/* info section */}
+        <Info />
 
         {/* slider  */}
 
