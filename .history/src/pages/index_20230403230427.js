@@ -1,9 +1,6 @@
-
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Image from "next/image";
-import Info from '../components/Info'
-
 
 export default function Home() {
   return (
@@ -19,19 +16,24 @@ export default function Home() {
         <Navbar />
         {/* hero section */}
 
-        <div className="md:mt-36 mt-24 flex flex-col items-center justify-center">
-          <p className="motto text-lg ">Studios  |  Metaverse  |  Academy</p>
-          <h1 className="font-bold mt-6 text-center text-2xl md:text-7xl">
-            Keeping Pace With <br /> The Global Trends
+        <div className="mt-32 flex flex-col items-center justify-center">
+          <p className="motto ">Studio | Metaverse| Academy</p>
+          <h1 className="font-bold mt-6 text-center text-2xl">
+            Keeping Pace With The Global Trends
           </h1>
-          <button class="bg-yellow-500 mt-5 hover:bg-yellow-600 text-white font-bold py-4 px-5 rounded inline-flex items-center">
-       
+          <button class="bg-yellow-500 mt-3 hover:bg-gray-400 text-white font-bold py-4 px-5 rounded inline-flex items-center">
+            {/* <svg
+              class="fill-current w-4 h-4 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg> */}
             <span>CONTACT US NOW</span>
           </button>
         </div>
 
         {/* info section */}
-        <Info />
 
         {/* slider  */}
 
